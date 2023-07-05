@@ -1,0 +1,93 @@
+body{
+  font-family: "Red Hat Display, Tajawal, Arial, Helvetica, sans-serif";
+
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size:24px;
+  margin: auto;
+  width: 50%;
+  
+}
+
+.flex-item {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 1 0 40%; 
+  margin: 5;
+  /* padding:10px 70px 0 0; */
+ 
+}
+.flex-full-width {
+  flex-basis: 100%;
+  margin-top:5px;
+}
+
+.category-title{
+  background-color: #F4B335;
+  font-size:24px;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+.header{
+  background-color: #F4B335;
+  padding: 10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding:28px 0px;}
+
+.logo{
+  max-height:65px;
+ 
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.note {
+ 
+  text-align: left;
+  font-size:13px;
+}
+
+.title{
+  text-align: center;
+ 
+} 
+
+.btn{
+  border:1;
+  border-radius: 25px; 
+  border-color: #F4B335; 
+  padding:10px 55px;
+  background-color: white;
+  color:#F4B335;
+
+}
+
+h1{
+  color: #F4B335;
+  font-size:16px;
+
+}
+.item{
+  color: #F4B335;
+  font-size:16px;
+  font-weight:bold;
+}
+.price{
+  font-size:13px;
+}
+.description{
+  font-style: italic;
+  font-size:14px;
+  font-weight:400;
+}
